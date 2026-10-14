@@ -1,0 +1,11 @@
+{
+  "services/tuyad" : {
+   "description" : "tuyad app permissions",
+    "read" : {
+       "api" : ["/tuyad/*"] 
+    },
+    "write" : {
+	"api" : ["/tuyad/*"]
+    }
+  }
+}

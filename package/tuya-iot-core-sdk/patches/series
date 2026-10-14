@@ -1,0 +1,6 @@
+001-root_enablepic.patch
+002-mbedtls_sharedlibs.patch
+003-middleware_sharedlibs.patch
+004-src_sharedlibs.patch
+005-utils_sharedlibs.patch
+006-platform_sharedlibs.patch

@@ -1,0 +1,14 @@
+Index: tuya-iot-core-sdk-1.0.0/CMakeLists.txt
+===================================================================
+--- tuya-iot-core-sdk-1.0.0.orig/CMakeLists.txt
++++ tuya-iot-core-sdk-1.0.0/CMakeLists.txt
+@@ -46,6 +46,9 @@ option( DOWNLOAD_CERTS
+ # Unity test framework does not export the correct symbols for DLLs.
+ set( ALLOW_SHARED_LIBRARIES ON )
+ 
++#Set for shared libraries
++set(CMAKE_POSITION_INDEPENDET_CODE on)
++
+ include( CMakeDependentOption )
+ CMAKE_DEPENDENT_OPTION( BUILD_SHARED_LIBS
+                         "Set this to ON to build all libraries as shared libraries. When OFF, libraries build as static libraries."
